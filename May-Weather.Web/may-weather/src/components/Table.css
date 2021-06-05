@@ -1,0 +1,45 @@
+table {
+    margin: auto;
+    width: 100%;
+}
+th, td {
+    border: 2px solid gainsboro;
+    width: 100px;
+    /*overflow: hidden;*/
+}
+
+button {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 5px;
+
+    border: solid gainsboro;
+    border-radius: 10px;
+    background-color: dimgray;
+
+    font-family: "Segoe UI Semibold";
+    color: gainsboro;
+}
+
+button:hover{
+    background-color: gainsboro;
+    color: dimgray;
+}
+
+button:active{
+    background-color: white;
+}
+
+input{
+    border: solid dimgray;
+    border-radius: 10px;
+    background-color: gainsboro;
+
+    font-family: "Segoe UI Semibold";
+    padding: 4px;
+    margin-right: 10px;
+}
+input:focus, button:focus{
+    outline: none;
+    border: solid lightskyblue;
+}
